@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/FrgListado"
+        class="anzen.com.merchant.vista.FragmentListado"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="30" />
+
+    <fragment
+        android:id="@+id/FrgDetalle"
+        class="anzen.com.merchant.vista.FragmentDetalle"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="70" />
+</LinearLayout>
